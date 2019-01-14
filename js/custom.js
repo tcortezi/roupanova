@@ -42,6 +42,10 @@ $(".modal-close").click(function() {
     closeModals();
 });
 
+$(".voltar-modal").click(function() {
+    closeModals();
+});
+
 $(".modal").click(function() {
     closeModals();
 });      
