@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <title>PartiuIngresso.com.br - Roupa Nova</title>
+    <title>PartiuIngressos.com - Roupa Nova</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/utils.css">
-    <link rel="shortcut icon" href="img/icone.png" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <script defer src="js/scroll.js"></script>
+    <script defer src="js/custom.js"></script>
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -20,24 +22,32 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TVG4LBK"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-  <section class="section hero1">
-    <div class="container">
-      <div class="spacer is-hidden-touch">
-      </div>
-      <div class="mini-spacer is-hidden-desktop">
-      </div>
-      <div class="columns has-padding-t-1 is-centered is-vcentered">
-        <div class="column is-half has-text-centered">
-          <img src="img/roupanova.svg" width="80%">
-        </div>
+  <section class="hero1">
+    <div class="container section">
+        <div class="columns is-multiline is-centered">
+            <div class="spacer is-hidden-touch">
+            </div>
+            <div class="column is-half has-text-centered">
+                <img src="img/logo-light.svg" width="190px" class="is-hidden-touch is-pulled-left">
+                <div class="spacer is-hidden-touch">
+                </div>
+                <img src="img/logo-light.svg" width="140px" class="is-hidden-desktop">
+                <div class="mini-spacer is-hidden-desktop">
+                </div>
+                <img src="img/roupanova.svg" width="80%">
+                <a href="javascript:void(0)" class="cart-btn button is-warning is-large img-raised has-padding-3 has-margin-t-3 is-hidden-touch" data-toggle="cart" data-target="#cart"><h4 class="has-text-black">QUERO GARANTIR MEU INGRESSO</h4></a>
+                <a href="javascript:void(0)" class="cart-btn button is-warning is-medium img-raised has-margin-t-4 is-hidden-desktop"><h6 class="has-text-black">QUERO GARANTIR MEU INGRESSO</h6></a>
+                <!-- <img src="img/cartoes.png" width="325px" height="auto" class="has-padding-t-6 is-hidden-touch"> -->
+                <!-- <img src="img/cartoes.png" width="195px" height="auto" class="has-padding-t-6 is-hidden-desktop"> -->
+             </div>
 
 
 
-        <div class="column is-half has-text-centered">
-          <a class="button yellow is-large img-raised has-padding-3 is-hidden-touch"><h4 class="has-text-black">RESERVE SEU INGRESSO</h4></a>
-          <a class="button yellow is-large img-raised has-padding-3 is-hidden-desktop"><h6 class="has-text-black">RESERVE SEU INGRESSO</h6></a>
-          <img src="img/cartoes.png" width="325px" height="auto" class="has-padding-t-6 is-hidden-touch">
-          <img src="img/cartoes.png" width="195px" height="auto" class="has-padding-t-6 is-hidden-desktop">
+        <div class="column is-half has-text-centered is-hidden-touch">
+            <div class="mini-spacer"></div>
+            <div class="img-raised has-margin-b-3">
+              <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/134876622?color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
         </div>
 
 
@@ -46,20 +56,22 @@
       </div>
     </div>
 
-    <div class="corte">
+    <div class="corte is-marginless is-paddingless">
     </div>
   </section>
 
 
+
+
   <section class="section texto">
     <div class="container">
-      <div class="columns is-centered">
+      <div class="columns is-centered is-multiline">
         <div class="column is-narrow serginho flex-center">
-          <a href="#"><img src="img/play.png"></a>
+          <a href="javascript:void(0)" class="video-btn" data-toggle="modal" data-target="#modal" data-src="https://player.vimeo.com/video/134876622?color=ffffff&title=0&byline=0&portrait=0"><img src="img/play.png" class="is-hidden-desktop"></a>
         </div>
         <div class="column is-two-fifths has-text-white">
           <p class="content">
-            <h5 class="text-yellow">Com este Show Incrível pertinho e sexta-feira. </h5>
+            <h4 class="text-yellow is-uppercase">Com este Show Incrível pertinho e sexta-feira. </h4>
             <h5 class="subtitle has-text-light">Você vai ficar em casa?</h5>
             Venha começar bem o mês com este <strong class="has-text-white">Super Show</strong> de uma das maiores bandas da música brasileira.
             Com mais de 30 anos de carreira, o <strong class="has-text-white">Roupa Nova</strong> se apresenta pela primeira vez na 031 Music, no Bairro Venda Nova, em <strong class="has-text-white">Belo Horizonte</strong>.
@@ -67,35 +79,187 @@
             Trilhas que marcaram época e embalaram muitos romances.
             Música fantásticas e com letras maravilhosas, como você conhece.
             <br /><br />
-            Venha cantar junto com a banda recordista em trilhas sonoras de novelas brasileiras e se emocionar.
-            O show do <strong class="has-text-white">Roupa Nova</strong> incluiu músicas como “Sonhando com os Pés no Chão”, “Tenha Fé na Música” e “É Tempo de Amar”, a nova música do grupo.
-            Viaje no tempo e crie novas lembranças.
-            Venha curtir juntinho com quem você ama.
-            Chame os amigos e participe deste Mega Show, com pessoas que gostam de boa música como você.
-            <br /><br />
-            Em <strong class="has-background-warning has-text-black">&nbsp;Única Apresentação&nbsp;</strong>, <strong class="has-text-white">dia 1º de Fevereiro, as 22:00 Hrs no 031 Music, em Venda Nova, Belo Horizonte</strong>.
+            Em <strong class="is-uppercase has-text-white">Única Apresentação</strong>, <strong class="has-text-warning">dia 1º de Fevereiro, as 22:00 horas no 031 Music, em Venda Nova, Belo Horizonte</strong>.
             <br /><br />
             <h6>Garanta agora mesmo o seu ingresso, clicando no botão abaixo!</h6>
           </p>
-          <div class="has-text-centered has-padding-t-3">
-            <a class="button yellow is-medium img-raised has-padding-3"><h6 class="has-text-black">GARANTA SEU INGRESSO</h6></a>
-          </div>
+        </div>
+        <div class="column is-full has-text-centered">
+            <div class="mini-spacer"></div>
+            <h6 class="has-text-white">ESTA OFERTA EXPIRA EM <i class="far fa-clock has-text-warning is-size-5"></i>&nbsp;<span id="time">30:00</span> MINUTOS</h6>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column">
+            <div class="has-text-centered">
+                <a href="javascript:void(0)" class="cart-btn button is-warning is-large img-raised has-padding-4 is-hidden-touch"><h5 class="has-text-black is-uppercase">Quero meu ingresso AGORA!</h5></a>
+                <a href="javascript:void(0)" class="cart-btn button is-warning is-large img-raised is-hidden-desktop"><h6 class="has-text-black is-uppercase">Quero meu ingresso AGORA!</h6></a>
+            </div>
         </div>
       </div>
     </div>
   </section>
 
+<section class="section bullets">
+    <div class="container">
+        <div class="columns is-centered is-vcentered">
+            <div class="column is-narrow">
+                <p class="content">&nbsp;</p>
+                <p>
+                    <span class="icon has-text-warning"><i class="fas fa-check"></i></span>
+                    <strong class="is-size-6 is-uppercase has-text-white">Uma das maiores bandas da música brasileira</strong>
+                </p>
+                <p>
+                    <span class="icon has-text-warning"><i class="fas fa-check"></i></span>
+                    <strong class="is-size-6 is-uppercase has-text-white">Trilhas que marcaram época</strong>
+                </p>
+                <p>
+                    <span class="icon has-text-warning"><i class="fas fa-check"></i></span>
+                    <strong class="is-size-6 is-uppercase has-text-white">Crie novas lembranças</strong>
+                </p>
+                <p>
+                    <span class="icon has-text-warning"><i class="fas fa-check"></i></span>
+                    <strong class="is-size-6 is-uppercase has-text-white">Música Boa, como você conhece</strong>
+                </p>
+                <p>
+                    <span class="icon has-text-warning"><i class="fas fa-check"></i></span>
+                    <strong class="is-size-6 is-uppercase has-text-white">Relembre os bons tempos</strong>
+                </p>
+            </div>
+            <div class="column is-two-fifths">
+                <p class="content">
+                    <h4 class="text-yellow is-uppercase">venha cantar junto! </h4>
+                    Com a banda recordista em trilhas sonoras de novelas brasileiras e se emocionar.
+                    O show do <strong class="has-text-white">Roupa Nova</strong> incluiu músicas como “Sonhando com os Pés no Chão”, “Tenha Fé na Música” e “É Tempo de Amar”, a nova música do grupo.
+                    Viaje no tempo e crie novas lembranças.
+                    Venha curtir juntinho com quem você ama.
+                    Chame os amigos e participe deste Mega Show, com pessoas que gostam de boa música como você.
+                </p>
+            </div>
+        </div>
+        <div class="columns is-centered">
+            <div class="column">
+                <div class="has-text-centered has-padding-t-3">
+                    <a href="javascript:void(0)" class="cart-btn button is-warning is-large img-raised has-padding-4"><h5 class="has-text-black is-uppercase">Quero ver esse show!</h5></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <div class="mini-spacer">
 </div>
 
 
-<footer class="has-background-black-bis mini-spacer">
-  <div class="content container">
-    <p>
-      <small class="is-pulled-left has-padding-r-1"><strong class="has-text-white">PARTIU</strong>INGRESSO.COM</small>
-      <a href="/politica" target="_blank" class="has-text-light">POLÍTICA DE VENDAS</a>
-    </p>
+
+
+<!-- MODAL 1 - Video -->
+  <div class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <div class="container has-text-centered embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always"></iframe>
+    </div>
   </div>
+  <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+
+
+<!-- MODAL 2 - Cart -->
+  <div class="cart">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <div class="column is-full has-text-centered">
+        <h5 class="text-yellow is-uppercase">SELECIONE O TIPO DE INGRESSO E A QUANTIDADE DESEJADA</h5>
+        <div class="card has-text-centered">
+          <header class="card-header has-background-light">
+            <a class="card-toggle">
+            <p class="card-header-title">PISTA - UNISSEX <span class="tag is-dark has-margin-l-6">R$60,00 <small>&nbsp;+ taxa de 10%</small></span></p>
+            </a>    
+          </header>
+          <div class="card-content is-hidden has-text-left">
+            <div class="content">
+                <p><label>Selecione a quantidade:</label></p>
+                <p>
+                    <a href="https://clkdmg.site/pay/8cba9c22-195b-4cef-9d71-0a64c7f32509" class="button is-warning"><strong>01</strong></a>
+                    <a href="https://clkdmg.site/pay/8cbab6a8-eb67-4984-877d-7cd14bc34c33" class="button is-warning"><strong>02</strong></a>
+                    <a href="https://clkdmg.site/pay/8cbab6ed-ab27-48a5-92d9-2dc4e8c56c47" class="button is-warning"><strong>03</strong></a>
+                    <a href="https://clkdmg.site/pay/8cbab711-d5cd-4640-9be1-c037d07e4b23" class="button is-warning"><strong>04</strong></a>
+                    <a href="https://clkdmg.site/pay/8cbab739-d058-4cff-aec0-00dddef2a667" class="button is-warning"><strong>05</strong></a>
+                </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <header class="card-header has-background-light">
+            <a class="card-toggle">
+            <p class="card-header-title">FRONTSTAGE - UNISSEX <span class="tag is-dark has-margin-l-6">R$80,00 <small>&nbsp;+ taxa de 10%</small></span></p>
+            </a>    
+          </header>
+          <div class="card-content is-hidden has-text-left">
+            <div class="content">
+                <p><label>Selecione a quantidade:</label></p>
+                <p>
+                    <a href="https://clkdmg.site/pay/8cbab612-2e42-4e43-81d2-d4ed7bd9325b" class="button is-warning"><strong>01</strong></a>
+                    <a href="https://clkdmg.site/pay/8cbab75f-ad15-4d6a-99af-049b33b4ec35" class="button is-warning"><strong>02</strong></a>
+                    <a href="https://clkdmg.site/pay/8cbab77a-bb4e-4ff2-8f81-473be8606c38" class="button is-warning"><strong>03</strong></a>
+                    <a href="https://clkdmg.site/pay/8cbab798-921f-4753-814d-0f9284a1e31d" class="button is-warning"><strong>04</strong></a>
+                    <a href="https://clkdmg.site/pay/8cbab7c3-d034-452c-b64c-cb8d7ea87bce" class="button is-warning"><strong>05</strong></a>
+                </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <header class="card-header has-background-light">
+            <a class="card-toggle">
+            <p class="card-header-title">CAMAROTE - UNISSEX <span class="tag is-dark has-margin-l-6">R$90,00 <small>&nbsp;+ taxa de 10%</small></span></p>
+            </a>    
+          </header>
+          <div class="card-content is-hidden has-text-left">
+            <div class="content">
+                <p><label>Selecione a quantidade:</label></p>
+                <p>
+                    <a href="https://clkdmg.site/pay/8cbab67a-b251-4326-94a5-de2a9f96ef60" class="button is-warning"><strong>01</strong></a>
+                    <a href="https://clkdmg.site/pay/8cbab7e2-6452-4605-89b8-6f06ac285a2f" class="button is-warning"><strong>02</strong></a>
+                    <a href="https://clkdmg.site/pay/8cbab7fb-2275-451c-bdf4-556f51128eee" class="button is-warning"><strong>03</strong></a>
+                    <a href="https://clkdmg.site/pay/8cbab817-7120-458e-a892-00270561db24" class="button is-warning"><strong>04</strong></a>
+                    <a href="https://clkdmg.site/pay/8cbab837-839f-4d42-b106-ea04f409bae1" class="button is-warning"><strong>05</strong></a>
+                </p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+
+
+
+
+
+<footer class="has-background-black-bis mini-spacer">
+<div class="container">
+    <nav class="level">
+      <!-- Left side -->
+      <div class="level-left">
+        <div class="level-item">
+          <p class="content">
+            <img src="img/logo-light.svg" width="150px">
+          </p>
+        </div>
+        <div class="level-item">
+            <a href="/politica" target="_blank" class="has-text-light">POLÍTICA DE VENDAS</a>
+        </div>
+      </div>
+
+      <!-- Right side -->
+      <div class="level-right has-text-centered">
+        <small class="has-text-grey">CR COMUNICAÇÃO E TECNOLOGIA LTDA<br />31.419.883/0001-00</small>
+      </div>
+    </nav>
+</div>
 </footer>
 
 </body>
