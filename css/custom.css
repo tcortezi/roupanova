@@ -164,6 +164,20 @@ figcaption {@include font-merri;margin: 0 auto;text-align:center;font-size:.8rem
     border: 0;
 }
 
+.button.is-ticket {
+    background-color: unset;
+    background-image: linear-gradient(to right, #C7C1B6 0%, #FAF3E5 100%);
+    border: 0;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2), 0 1px 6px 0 rgba(0,0,0,0.19);
+}
+
+.button.is-ticket:hover {
+    background-color: unset;
+    background-image: linear-gradient(to right, #F2C603 0%, #F5DF04 100%);
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2), 0 1px 6px 0 rgba(0,0,0,0.19);
+    border: 0;
+}
+
 @media screen and (max-width: 600px) {
   .hero1 {
     position: relative;
