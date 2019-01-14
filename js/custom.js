@@ -62,6 +62,7 @@ function closeModals() {
     $(".modal").removeClass("is-clipped");
     $(".cart").removeClass("is-active");
     $(".cart").removeClass("is-clipped");
+    $("#video").attr('src',$videoSrc);
 }
 
 
