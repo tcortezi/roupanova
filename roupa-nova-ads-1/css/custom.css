@@ -192,6 +192,14 @@ background-size: cover;
 background-position: center;
 }
 
+.is-size-8 {
+    font-size: .65rem!important;
+}
+
+.disclamer {
+  line-height: 1;
+}
+
 @media screen and (max-width: 600px) {
   .section.sobre {
     padding-bottom: unset;
